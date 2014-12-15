@@ -10,9 +10,43 @@ include('inc/header.php');
 			<section>
 				<ul id="gallery">
 					
-					<li>
-						<a href= "frontpagecatalog.php">
-							<img src="img/Catalog/FINALFront.jpg" alt = "Fall 2010 Graphic Design I">
+					<li >
+													
+						<a href= "img/Catalog/FINALFront.jpg " class=" lightbox" title="Caption One" data-gallery="catalog">
+							<img src="img/Catalog/FINALFront.jpg" alt"Fall 2010 Graphic Desgin I">
+						</a>
+
+
+					<span class="hidden_images">
+
+						<a href= "img/Catalog/FINALTAbleContents.jpg" class="desktop-2 gallery_images lightbox" title="Caption One" data-gallery="catalog">
+
+							<img src="img/Catalog/FINALTAbleContents.jpg" alt"Fall 2010 Graphic Desgin I">
+
+						</a>
+
+						<a href= "img/Catalog/FINALPage3.jpg" class="desktop-2 gallery_images lightbox" title="Caption One" data-gallery="catalog">
+							<img src="img/Catalog/FINALPage3.jpg" alt"Fall 2010 Graphic Desgin I">
+						</a>
+
+						
+
+						<a href= "img/Catalog/FINALPage5.jpg" class="desktop-2 gallery_images lightbox" title="Caption One" data-gallery="catalog">
+							<img src="img/Catalog/FINALPage5.jpg" alt"Fall 2010 Graphic Desgin I">
+						</a>
+
+						<a href= "img/Catalog/FINALPage6.jpg" class="desktop-2 gallery_images lightbox" title="Caption One" data-gallery="catalog">
+							<img src="img/Catalog/FINALPage6.jpg" alt"Fall 2010 Graphic Desgin I">
+						</a>
+
+						<a href= "img/Catalog/FINALPage7.jpg" class="desktop-2 gallery_images lightbox" title="Caption One" data-gallery="catalog">
+							<img src="img/Catalog/FINALPage7.jpg" alt"Fall 2010 Graphic Desgin I">
+						</a>
+					</span>
+
+					<!-- end of hidden images for gallery 1 -->
+
+
 							<p> Front Page of Smoke Catalog </p>
 					    </a>
 					</li>
